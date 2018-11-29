@@ -1,10 +1,10 @@
 ##############################################
 #
-#		TuWorld Slader
+#	TuWorld Slader
 #
-#		410321170
+#	410321170
 #
-#		Pattern Recognition Assignment 1
+#	Pattern Recognition Assignment 1
 #
 #############################################
 
@@ -62,7 +62,7 @@ def matrixMean(D):
 	MeanV = MeanV / len(D)
 	return MeanV
 #Matrix Variance Function: 	Accepts a set of 3x1 vectors and the 
-#							mean vector of that set and calculates the variance	
+#				mean vector of that set and calculates the variance	
 def matrixVariance(D, mean):
 	VarV = np.matrix(np.zeros(shape=(3,3)))
 	
@@ -89,8 +89,8 @@ def matrixVariance(D, mean):
 	return VarV
 
 #Data Collector Function: 	Adds the pixel information for each 
-#							pixel in an image to a 1D list of 
-#							size=(pixel length x pixel width) of the image.
+#				pixel in an image to a 1D list of 
+#				size=(pixel length x pixel width) of the image.
 def dataCollector(img):
 	temp = list()
 	
@@ -186,7 +186,7 @@ prog = "["+str(hrs)+":"+str(mins)+":"+str(seconds)+"] duck huntin"
 for x in range(row):
 	for y in range(col):
 		# An extra line to exclude the black areas of the image that aren't actually
-		# apart of the image.
+		# apart of the image. 
 		if(imgk2[x][y][0] != 0 or imgk2[x][y][1] != 0 or imgk2[x][y][2] != 0):
 			probDuck = gaus_f(d_MeanV, d_VarianceV, np.matrix(imgk2[x][y]).T)
 			probNoDuck = gaus_f(nd_MeanV, nd_VarianceV, np.matrix(imgk2[x][y]).T)
