@@ -12,8 +12,6 @@ import cv2
 import numpy as np
 import sys
 import math
-import sklearn
-import random
 import time
 
 ## Files
