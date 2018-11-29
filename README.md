@@ -1,5 +1,5 @@
 # Pattern-Recognition-410321170
-Pattern Recognition assignments 
+
 
 The smaller test files have been included for quick testing of the code. 
 
