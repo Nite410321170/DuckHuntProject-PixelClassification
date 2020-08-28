@@ -1,5 +1,6 @@
 # Pattern-Recognition-410321170
 
+VIEW PDF FILE FOR PROJECT DESCRIPTION AND DETAILS.
 
 The smaller test files have been included for quick testing of the code. 
 
