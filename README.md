@@ -1,4 +1,4 @@
-# Pattern-Recognition-410321170
+# Duck Hunt Pattern-Recognition-410321170
 
 VIEW PDF FILE FOR PROJECT DESCRIPTION AND DETAILS.
 
